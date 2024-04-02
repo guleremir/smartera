@@ -1,4 +1,4 @@
-package com.smartera.service;
+package com.smartera.service.user;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.smartera.entities.User;
-import com.smartera.repository.UserRepository;
+import com.smartera.repository.user.UserRepository;
 
 @Service
 public class UserService {

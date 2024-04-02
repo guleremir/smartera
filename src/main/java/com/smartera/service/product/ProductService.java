@@ -1,4 +1,4 @@
-package com.smartera.service;
+package com.smartera.service.product;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.smartera.entities.Product;
-import com.smartera.repository.ProductRepository;
+import com.smartera.repository.product.ProductRepository;
 
 @Service
 public class ProductService {

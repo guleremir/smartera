@@ -1,4 +1,4 @@
-package com.smartera.repository;
+package com.smartera.repository.order;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

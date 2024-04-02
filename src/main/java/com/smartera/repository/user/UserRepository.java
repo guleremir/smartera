@@ -1,4 +1,4 @@
-package com.smartera.repository;
+package com.smartera.repository.user;
 
 import java.util.Optional;
 
