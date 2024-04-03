@@ -8,6 +8,29 @@
   - Lombok
   ```
 
+## Proje Özeti
+  ```
+    - Kullanıcıları, ürünleri ve siparişleri bulunan bir API.
+    - Kullanıcı oluşturulurken verilen perm değişkeni, kullanıcının siperiş oluşturup oluşturamama yetkisini belirtmektedir.
+    - Kullanıcı oluştururken bu alan 1 veya 0 olarak verilmektedir.
+    - Yetkisi olan kullanıcı order oluşturabilmektedir.
+    - Oluşturulan order'ın daha sonrasında içerisine ürün girişi yapılabilmektedir.
+  ```
+
+## Projeyi Çalıştırma
+```
+  Projeyi çalıştırmak için doğrudan zip dosyası olarak indirebilirsiniz.
+  İndirmiş olduğunuz zip dosyasını klasörden çıkartıp IDE'nizde import ediniz.
+  Daha sonrasında proje içerisinde bulunan application.properties dosyasındaki, spring.jpa.hibernate.ddl-auto=none
+  komutunu isterseniz create olarak değiştirebilirsiniz.
+  Aşağıda bu komutu değiştirmeden veritabanı tablolarını oluşturacağınız SQL komutları verilmiştir.
+  Hata almanız durumunda application.properties dosyasında yer alan;
+    -spring.datasource.username=tobeto
+    -spring.datasource.password=tobeto123!
+  bölümlerini veritabanınıza uygun olarak güncelleyin.
+  Son olarak Run as Spring Boot Application komutu ile projeyi çalıştırabilirsiniz.
+```
+
 ## SQL Tabloları İçin
   ```
   CREATE TABLE orders (
